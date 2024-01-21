@@ -69,7 +69,7 @@ void read_gyroscope_data() {
   LOG(LL_INFO, ("Gyroscope Data: X=%d, Y=%d, Z=%d", gyro_x, gyro_y, gyro_z));
   const char* message = get_gyroscope_data_string(gyro_x, gyro_y, gyro_z);
   
-  uint16_t returned_value = mgos_mqtt_pubf("IoT/data", 1, false, message);
+  uint16_t returned_value = mgos_mqtt_pubf("iot/0/data", 1, false, message);
   LOG(LL_INFO, ("Published: %d", returned_value));
   LOG(LL_INFO, ("Connection mqtt: %d", mgos_mqtt_global_connect()));
 }
