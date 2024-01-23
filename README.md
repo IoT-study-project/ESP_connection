@@ -11,7 +11,7 @@ if yes:
 - FINISH🎉 ( check if data have been send to topic 'iot/0/data' )
 
 
-# How to run?
+# How to run on new ESP32?
 
 - first use command `mos build` to build application
 - run command `mos flash` to send builded code to your ESP32
