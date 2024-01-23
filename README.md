@@ -2,7 +2,7 @@
 
 ## Overview
 
-App reads data from L3G4200D: three axis digital output gyroscope and sends via MQTT to AWS ( Amazon Web Server ).
+App reads data using ESP32 from L3G4200D: three axis digital output gyroscope and sends via MQTT to AWS ( Amazon Web Server ).
 
 # Already have ESP with installed application?
 if yes: 
