@@ -15,6 +15,6 @@ if yes:
 
 - first use command `mos build` to build application
 - run command `mos flash` to send builded code to your ESP32
-- after that go to [Link to Header](#already-have-esp-with-installed-application)
+- after that go to [Already have ESP with installed application](#already-have-esp-with-installed-application)
 
 
