@@ -1,0 +1,5 @@
+# ignore build
+
+build/
+aws-esp32_C92400.crt.pem
+aws-esp32_C92400.key.pem

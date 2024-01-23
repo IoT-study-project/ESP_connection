@@ -2,8 +2,8 @@
 
 ## Overview
 
-This is an empty app, serves as a skeleton for building Mongoose OS
+This is an NOT empty app, serves as a skeleton for building Mongoose OS
 apps from scratch.
 
 # IOT
-# IOT
+
