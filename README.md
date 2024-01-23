@@ -6,8 +6,8 @@ App reads data using ESP32 from L3G4200D: three axis digital output gyroscope an
 
 # Already have ESP with installed application?
 if yes: 
-- connect your esp to aws using `mos aws-iot-setup --aws-region YOUR_REGION`
-- conncect to WIFI using `mos wifi SSID PASSWORD`
+- connect your ESP to AWS using `mos aws-iot-setup --aws-region YOUR_REGION`
+- conncect to WiFi using `mos wifi SSID PASSWORD`
 - FINISH🎉 ( check if data have been send to topic 'iot/0/data' )
 
 
